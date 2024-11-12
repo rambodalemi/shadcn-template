@@ -77,7 +77,7 @@ const subMenuItemsTwo = [
 const Navbar = () => {
   return (
     <>
-      <nav className="hidden p-6 bg-white justify-between lg:flex fixed top-0 left-0 w-full z-50 backdrop-blur-md [--animation-delay:400ms] gap-4 border-border/40 bg-background/95 supports-[backdrop-filter]:bg-background/60">
+      <nav className="hidden sticky p-6 bg-white justify-between lg:flex top-0 left-0 w-full z-50 backdrop-blur-md [--animation-delay:400ms] gap-4 border-border/40 bg-background/95 supports-[backdrop-filter]:bg-background/60">
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-2">
             <img

@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -29,9 +30,9 @@ const Contact = () => {
                 </li>
                 <li>
                   <span className="font-bold">Email: </span>
-                  <a href="" className="underline">
+                  <Link href="" className="underline">
                     your-email@example.com
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

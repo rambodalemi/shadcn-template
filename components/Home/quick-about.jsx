@@ -2,7 +2,7 @@ import { CircleArrowRight, Files, Settings } from "lucide-react";
 
 const QuickAbout = () => {
   return (
-    <section className="py-32 p-32 sm:p-0">
+    <section className="py-32">
       <div className="container flex flex-col gap-28">
         <div className="flex flex-col gap-7">
           <h1 className="text-4xl font-semibold lg:text-7xl">

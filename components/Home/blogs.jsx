@@ -1,6 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 const posts = [
   {
@@ -61,7 +62,7 @@ const Blog = () => {
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
           {posts.map((post) => (
-            <a
+            <Link
               key={post.id}
               href={post.href}
               className="flex flex-col text-clip rounded-xl border border-border"
@@ -85,7 +86,7 @@ const Blog = () => {
                   <ArrowRight className="ml-2 size-4" />
                 </p>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </div>

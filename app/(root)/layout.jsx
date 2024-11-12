@@ -6,8 +6,8 @@ export default function RootLayout({ children }) {
   return (
     <div>
       <Navbar />
-      <div className="w-full my-16 justify-center grid">
-        <div className="p-2 sm:p-4 space-y-4 sm:space-y-6 relative overflow-x-clip">
+      <div className="w-full my-16 container mx-auto p-8">
+        <div className="sm:p-4 space-y-4 sm:space-y-6 relative overflow-x-clip">
           {children}
           <Cta />
         </div>
